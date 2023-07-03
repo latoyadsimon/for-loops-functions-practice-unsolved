@@ -43,7 +43,7 @@ export function getStringSum(str) {
   for(let i = 0; i < str.length; i++) {
     let item = Number(str[i]);
     // console.log(item)
-    if(item >=0) {
+    if(item >= 0) {
         numArray.push(item);
     }
   }

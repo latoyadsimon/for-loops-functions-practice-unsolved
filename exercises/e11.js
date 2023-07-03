@@ -23,7 +23,7 @@ for(let j = 0; j < array.length; j++) {
    
      let accountWithdrawal = array[j].withdrawals;
      
-     console.log("this is accountWithdrawal for: " + array[j].name+ ": ", accountWithdrawal);
+     console.log("this is accountWithdrawal for: " + array[j].name + ": ", accountWithdrawal);
      
      if(accountWithdrawal[0] > 0) {
         let sum = 0;

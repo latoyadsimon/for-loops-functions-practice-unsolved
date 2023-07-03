@@ -13,20 +13,18 @@ export function getNumbersWithSquareRoots(max) {
     for(let i = 0; i <= max; i++) {
         maxList.push(i);
         let squared = Number(i*i);
-        if(squared<max) {
+        if(squared < max) {
             allNumbersSquared.push(squared);
         }
     }
     // console.log("this is the max list filled", maxList);
     // console.log("all squares: ", allNumbersSquared);
     
-    // let i = 0;
     
   for(let j = 0; j < allNumbersSquared.length; j++) {
     // in all numbers squared, we need to find the maxNum
     
-
-    for (const maxNum of maxList) {
+    for (let maxNum of maxList) {
       if(maxNum === allNumbersSquared[j] ) {
         numbersWithSquareRoots.push(maxNum);
         console.log("yay we found a square root with " + maxNum + "!!!");

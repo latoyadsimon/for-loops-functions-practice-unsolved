@@ -1,3 +1,4 @@
+// Completed all exercises on July 3rd 2023;
 
 // EXERCISE 20
 // Return and array of 2 arrays
@@ -48,9 +49,8 @@ export function separateNamesWithAFromRest(array) {
   }
   console.log("this is the separtedNames: ", separatedNames);
   return separatedNames;
-
-
 }
+
 //to invoke the code in replit
 // console.log(separateNamesWithAFromRest(people));
 

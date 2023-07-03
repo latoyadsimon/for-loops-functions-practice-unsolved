@@ -6,19 +6,6 @@
 
 export function concatArrays(arr1, arr2) {
   // Your code goes here...
-  let combined = [];
-  for(let i = 0; i < arr1.length; i++) {
-      combined.push(arr1[i]);
-    }
-
-  for(let i = 0; i < arr2.length; i++) {
-      combined.push(arr2[i]);
-    }
-    
-    console.log("first array: ", arr1);
-    console.log("2nd array: ", arr2);
-  console.log("now combined: ", combined);
-  return combined;
 
 }
 

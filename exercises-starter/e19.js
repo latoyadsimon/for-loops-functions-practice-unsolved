@@ -6,13 +6,6 @@
 
 export function reverseArray(array) {
   // Your code goes here...
-  console.log(array);
-  let reversed = [];
-  for(let i = array.length - 1; i >= 0; i--) {
-    reversed.push(array[i]);
-  }
-  console.log("I'm a lil backwards yall, comin thru!: " , reversed);
-  return reversed;
 
 }
 

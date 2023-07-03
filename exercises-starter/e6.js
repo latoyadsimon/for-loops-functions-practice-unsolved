@@ -5,14 +5,6 @@
 
 export function getClientWithNoMoney(array) {
   // Your code goes here...
-//   console.log(array);
-  let brokeBums = [];
-  for(let i = 0; i < array.length; i++) {
-    if(array[i].balance === 0) {
-        brokeBums.push(array[i].name);
-    }
-  }
-  return brokeBums;
 
 }
 

@@ -7,30 +7,6 @@
 
 export function doesArrayInclude(array, value) {
   // Your code goes here...
-  console.log(array);
-  console.log(value);
-
-  let valueAdded = [];
-  for(let i = 0; i < array.length; i++) {
-
-    // console.log(array[i] + " has a type of: " +  typeof array[i]);
-    console.log(value + ":" + array[i]);
-    if(value === array[i]) {
-        valueAdded.push(array[i]);
-        console.log(true);
-        // return true;
-    }else{
-        console.log(false);
-        // return false;
-    }
-}
-if(valueAdded.length) {
-    console.log("We are One!! This is True!!" );
-    return true;
-}else{
-    console.log("Deception!! Disgrace!! He is not, ONE OF UUUUSSSSS!!! This is false!!!");
-    return false;
-}
 
 }
 

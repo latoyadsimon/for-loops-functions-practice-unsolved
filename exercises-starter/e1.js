@@ -5,14 +5,7 @@
 
 export function getFirstTenNumbers() {
   // Your code goes here...
-  let firstTenNumbers = [];
-  for(let i = 1; i <= 10; i++) {
-    let number = i;
-    console.log(number);
-    firstTenNumbers.push(number);
-  }
-  console.log(firstTenNumbers);
-return firstTenNumbers;
+
 }
 
 // === TEST YOURSELF ===

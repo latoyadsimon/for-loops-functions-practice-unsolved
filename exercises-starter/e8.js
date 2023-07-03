@@ -6,24 +6,8 @@
 
 export function getClientWithGreatestBalance(array) {
   // Your code goes here...
-  //   console.log(array);
-  let highestBalance = [array[0]];
-  console.log(highestBalance);
-  for(let i = 0; i < array.length; i++) {
-    if(array[i].balance > highestBalance[0].balance && array[i].balance > 0) {
-        highestBalance[0] = array[i];
-    }
-  }
-  if(highestBalance[0].balance <= 0) {
-    highestBalance = [];
-  }
 
-   console.log(highestBalance);
-  return highestBalance;
-  
 }
-
-
 
 
 

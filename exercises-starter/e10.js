@@ -5,23 +5,6 @@
 
 export function getClientsWithLetterInName(array, letter) {
   // Your code goes here...
-  let nameArray = [];
-//   let letterArray = [];
-//   console.log(array);
-  for(let i = 0; i < array.length; i++) {
-    for(let alpha of array[i].name) {
-        alpha = alpha.toLowerCase();
-        console.log(alpha);
-
-        if(letter === alpha) {
-            nameArray.push(array[i].name);
-
-        }
-    }
-
-  }
-  console.log(nameArray);
-  return nameArray;
 
 }
 

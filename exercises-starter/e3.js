@@ -10,17 +10,6 @@
 
 export function getAverage(array) {
   // Your code goes here...
-  let sum = 0;
-
-  for(let i = 0; i < array.length; i++) {
-    let item = array[i];
-     console.log(item);
-     sum+=item;
-    
-  }
-  console.log(sum);
-  console.log((sum/array.length));
-  return (sum/array.length);
 
 }
 
@@ -34,28 +23,7 @@ export function getAverage(array) {
 
 export function getStringSum(str) {
   // Your code goes here...
-  //put the string into an array
-  //compare each items type, if its a number push to a new array
-  //add the numbers of that array
-  let numArray = [];
-  let sumOfString = 0;
 
-  for(let i = 0; i < str.length; i++) {
-    let item = Number(str[i]);
-    // console.log(item)
-    if(item >=0) {
-        numArray.push(item);
-    }
-  }
-  console.log(numArray);
-  if(numArray.length) {
-    for(let j = 0; j < numArray.length; j++) {
-      let num = Number(numArray[j]);
-      sumOfString += num;
-    }
-  }
-  console.log(sumOfString);
-  return sumOfString;
 }
 
 

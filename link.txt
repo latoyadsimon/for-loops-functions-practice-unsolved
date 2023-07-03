@@ -1,0 +1,8 @@
+link to github repo
+
+https:
+https://github.com/latoyadsimon/for-loops-functions-practice-unsolved.git
+
+ssh
+git@github.com:latoyadsimon/for-loops-functions-practice-unsolved.git
+
